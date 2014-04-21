@@ -1,0 +1,28 @@
+{
+    "name": "ibsciss-components/sepa",
+    "description": "an Ibsciss component",
+    "keywords": ["some", "tags"],
+    "homepage": "http://www.ibsciss.com",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "John Doe",
+            "email": "jdoe@ibsciss.fr",
+            "homepage": "http://www.ibsciss.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "satooshi/php-coveralls": "dev-master",
+        "phpspec/phpspec": "2.0.*@dev",
+        "henrikbjorn/phpspec-code-coverage": "1.0.*@dev"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ibsciss\\Component\\Example\\": "src"
+        }
+    }
+}
