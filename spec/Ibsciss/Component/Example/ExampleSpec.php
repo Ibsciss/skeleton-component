@@ -11,4 +11,9 @@ class ExampleSpec extends ObjectBehavior
     {
         $this->shouldHaveType('Ibsciss\Component\Example\Example');
     }
+
+    function its_work()
+    {
+        $this->hello()->shouldReturn('Hello');
+    }
 }
