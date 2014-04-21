@@ -1,7 +1,6 @@
 *.tgz
 *.phar
 vendor
-composer.lock
 bin
 build
 .DS_Store
