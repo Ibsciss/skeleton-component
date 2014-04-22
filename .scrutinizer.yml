@@ -8,17 +8,14 @@ tools:
   php_sim: true
   php_pdepend: true
   sensiolabs_security_checker: true
+  php_mess_detector: true
   php_code_sniffer:
-    filter:
-      excluded-paths: [ spec/*, vendor/* ]
     config:
       standard: "PSR1"
-  php_mess_detector:
-    filter:
-      excluded-paths: [ spec/*, vendor/* ]
   php_analyzer:
-    filter:
-      excluded-paths: [ spec/*, vendor/* ]
     config:
         metrics_lack_of_cohesion_methods:
             enabled: true
+
+filter:
+    excluded-paths: [ spec/*, vendor/* ]
