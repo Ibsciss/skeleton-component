@@ -18,4 +18,4 @@ tools:
             enabled: true
 
 filter:
-    excluded-paths: [ spec/*, vendor/*, bin/* ]
+    excluded-paths: [ spec/*, vendor/*, bin/*, docs/* ]

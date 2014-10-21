@@ -1,5 +1,7 @@
 *.tgz
 *.phar
+*.iml
+.idea
 vendor
 bin
 build
